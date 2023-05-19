@@ -1,0 +1,336 @@
+/* ! Navbar START */
+
+/* ! Navbar TOP START */
+
+@media screen and (max-width:540px) {
+    .navbar .navbar-text {
+        margin-left: 120px;
+    }
+
+    .navbar .col-sm-6 span {
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .navbar .col-sm-6 span {
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .navbar .col-sm-6 span {
+        margin-left: 110px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .navbar .navbar-text {
+        margin-left: 80px;
+    }
+
+    .navbar .col-sm-6 span {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .navbar .navbar-text {
+        margin-left: 60px;
+    }
+
+    .navbar .col-sm-6 span {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .navbar .navbar-text {
+        margin-left: 50px;
+    }
+
+    .navbar .col-sm-6 span {
+        margin-left: 50px;
+    }
+}
+
+/* ! Navbar TOP END */
+
+/* ! Navbar Mid START */
+
+@media screen and (max-width:992px) {
+    .navbar-expand .col-4 {
+        display: block;
+    }
+
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+
+    .col-md-2 h2 {
+        font-size: 16px!important;
+    }
+
+    .col-md-2 .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 12px!important;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar-expand .container .row {
+        display: inline-block;
+    }
+
+    .navbar-expand .container .row .col-4 {
+        display: flex;
+    }
+
+    .navbar-expand .container .row .col-4 .navbar-collapse {
+        justify-content: end;
+    }
+
+    .navbar-collapse {
+        margin-left: 100px;
+    }
+
+    .navbar-expand .col-8 {
+        width: 100%;
+        margin-top: 55px;
+    }
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .form-control {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .col-lg-3 .form-control {
+      margin-left: 200px;
+    }
+
+    .navbar-expand .col-8 span a {
+        font-size: 13px!important;
+        margin: 0!important;
+    }
+
+    .navbar-expand .col-8 span {
+        margin: auto!important;
+    }
+   
+}
+
+@media screen and (max-width:500px) {
+    .navbar-expand .col-4 {
+        display: block!important;
+        margin: auto!important;
+    }
+
+    .navbar-expand .col-4 .navbar-collapse {
+        justify-content: center!important;
+        display: inline-block!important;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .navbar-expand .col-8 span {
+        margin-left: 80px!important;
+    }
+
+    @media screen and (max-width:450px) {
+        .navbar-expand .col-8 span {
+            margin-left: 50px!important;
+        }
+}
+
+@media screen and (max-width:410px) {
+    .navbar-expand .col-8 span {
+        margin-left: 40px!important;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .navbar-expand .col-8 span {
+        margin-left: 20px!important;
+    }
+}
+}
+
+/* ! Navbar Mid END */
+
+/* ! Navbar END */
+
+/* ! Content START */
+
+@media screen and (max-width:576px) {
+    .card-body {
+        margin-top: 30px!important;
+        margin: auto;
+    }
+}
+
+.advertisement {
+    max-width: 100%;
+    
+}
+
+/* ! Content END */
+
+/* ! Slider START */
+
+@media screen and (max-width:768px) {
+    .only {
+        position: absolute;
+        right: 27%;
+        top: 60%;
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .col-md-2 .fa-solid,
+    .col-md-1 .fa-solid {
+        display: none;
+    }
+}
+
+/* ! Footer START */
+
+@media screen and (max-width:576px) {
+    .footer-bottom .col-sm-4,
+    .footer-bottom .col-sm-6 {
+        width: 33%!important;
+    }
+
+    .footer-top .col-lg-2 {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width:400px) {
+    .single-widget .bg-danger {
+        padding: 10px!important;
+    }
+}
+
+/* ! Footer END */
+
+/* ! Login START */
+
+@media screen and (max-width:768px) {
+    #form .col-sm-5 {
+        width: 100%;
+    }
+
+    .or {
+        margin: auto!important;
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+        margin-left: 230px!important;
+
+    } 
+}
+
+@media screen and (max-width:575px) {
+    .or {
+        margin: auto!important;
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+    } 
+}
+
+/* ! Login END */
+
+/* ! Cart START */
+
+@media screen and (max-width:1200px) {
+    .total_area {
+        min-height: 265px!important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .row .user_info {
+        display: block!important;
+    }
+
+    .row .user_info .single_field {
+        width: 70%;
+    }
+
+    .total_area {
+        min-height: 342px!important;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .total_area {
+        min-height: 430px!important;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .row .user_info .single_field {
+        width: 40%;
+    }
+
+    .cart_description {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .row .user_info .single_field {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cart_quantity .cart_quantity_button {
+        display: block!important;
+    }
+
+    .cart_quantity_button .cart_quantity_up {
+        margin-left: 17px!important;;
+    }
+
+    .cart_quantity_button .cart_quantity_down {
+        margin-left: 15px!important;
+    }
+
+}
+
+/* ! Product Details START */
+
+@media screen and (max-width:767px) {
+    .ads img {
+        margin-bottom: 50px!important;
+        width: 100%!important;
+    }
+
+    .col-1 .ads {
+        margin-bottom: 50px!important;
+        width: 1000%!important;
+    }
+
+    .product img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+
+/* ! Product Details END */
+
+
+

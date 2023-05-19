@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <!-- ! Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- ! Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- ! Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4cac50530c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ! Google Web Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <!-- ! Navbar Top START -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar bg-warning-subtle">
+          <div class="col-sm-6">
+            <span class="navbar-text d-flex">
+              <i class="fa-solid fa-phone pe-1"></i>
+              <p class="">+4 95 01 88 821</p>
+              <i class="fa-solid fa-envelope ms-5 pe-1"></i>
+              <p class="">info@domain.com</p>
+            </span>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-end">
+            <span>
+              <a
+                class="ms-4 text-black"
+                href="https://www.facebook.com/neosyazilimakademi"
+                target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                class="ms-4 text-black"
+                href="https://twitter.com/neos_yazilim"
+                target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a
+                class="ms-4 text-black"
+                href="https://www.linkedin.com/company/neos-yaz%C4%B1l%C4%B1m/mycompany/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                class="ms-4 text-black"
+                href="https://github.com/Said-Suluk"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                class="ms-4 me-5 text-black"
+                href="https://www.google.com/search?q=google+neos+yaz%C4%B1l%C4%B1m&sxsrf=APwXEdeDsuWYHYy9o9Eb8Aw1Q7PZqOwdBg%3A1684501131753&ei=i3JnZKjQLeuUxc8Pw4mMuAk&ved=0ahUKEwjowdPct4H_AhVrSvEDHcMEA5cQ4dUDCA8&uact=5&oq=google+neos+yaz%C4%B1l%C4%B1m&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgAToHCAAQHhCwAzoJCAAQCBAeELADOg0IABANEIAEELEDEIMBOgcIABANEIAEOgQIIxAnOgYIABAWEB46CAgAEBYQHhAKOgQIIRAVOgcIIRCgARAKSgQIQRgBUJUHWLMTYJsUaAJwAHgBgAG1AYgB0wqSAQQwLjEwmAEAoAEByAEKwAEB&sclient=gws-wiz-serp"
+                target="_blank"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+            </span>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- ! Navbar Top END -->
+
+    <!-- ! Navbar Mid START -->
+
+    <nav class="navbar-expand mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <a class="navbar-brand" href="index.html"
+              ><img src="./img/index/logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav border ps-2 pt-0 ms-3">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle p-0 ps-3 pe-3"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    USA
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Canada</a></li>
+                    <li><a class="dropdown-item" href="#">UK</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navbar-nav border ms-3">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle p-0 ps-3 pe-3"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    DOLLAR
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Canadian Dollar</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Pound</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-8 d-flex justify-content-end">
+            <span>
+              <a class="text-decoration-none ms-3 text-black" href="#"
+                ><i class="fa-solid fa-user me-1"></i>Account</a
+              >
+              <a class="text-decoration-none ms-3 text-black" href="shop.html"
+                ><i class="fa-solid fa-star me-1"></i>Whislist</a
+              >
+              <a class="text-decoration-none ms-3 text-black" href="#"
+                ><i class="fa-solid fa-crosshairs me-1"></i>Checkout</a
+              >
+              <a class="text-decoration-none ms-3 text-black" href="cart.html"
+                ><i class="fa-solid fa-cart-shopping me-1"></i>Cart</a
+              >
+              <a class="text-decoration-none ms-3 text-black" href="login.html"
+                ><i class="fa-solid fa-lock me-1"></i>Login</a
+              >
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ! Navbar Mid END -->
+
+    <!-- ! Navbar Bottom START -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-warning"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-black"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                  <li>
+                    <a class="dropdown-item" href="product-details.html"
+                      >Product Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog List</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">404</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex ms-auto">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- ! Navbar Bottom END -->
+
+    <!-- ! Content START -->
+    <section id="cart_items">
+      <div class="container">
+        <div class="breadcrumbs">
+          <ol class="breadcrumb">
+            <li>
+              <a
+                class="bg-warning p-1 me-3 text-decoration-none text-dark"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="active text-secondary">Shopping Cart</li>
+          </ol>
+        </div>
+        <div class="table-responsive cart_info">
+          <table class="table table-condensed">
+            <thead>
+              <tr class="cart_menu bg-warning">
+                <td class="image">Item</td>
+                <td class="description"></td>
+                <td class="price">Price</td>
+                <td class="quantity">Quantity</td>
+                <td class="total">Total</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr></tr>
+
+              <tr>
+                <td class="cart_product">
+                  <a href=""><img src="./img/cart/2.png" alt="" /></a>
+                </td>
+                <td class="cart_description">
+                  <h4 class="mt-">
+                    <a class="text-decoration-none text-dark" href=""
+                      >Colorblock Scuba</a
+                    >
+                  </h4>
+                  <p>Web ID: 1089772</p>
+                </td>
+                <td class="cart_price">
+                  <p class="mt-4">$112</p>
+                </td>
+                <td class="cart_quantity">
+                  <div class="cart_quantity_button d-flex mt-3">
+                    <button
+                      id="phone-minus"
+                      class="cart_quantity_up me-3 text-decoration-none text-black border-0"
+                      href=""
+                    >
+                      -
+                    </button>
+                    <input
+                      id="phone-number"
+                      type="number"
+                      min="0"
+                      class="form-control text-center"
+                      value="1"
+                    />
+                    <button
+                      id="phone-plus"
+                      class="cart_quantity_down ms-3 text-decoration-none text-black border-0"
+                      href=""
+                    >
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td class="cart_total">
+                  <p class="mt-3">$ <span id="phone-total">112</span></p>
+                </td>
+                <td class="cart_delete">
+                  <a class="cart_quantity_delete" href=""
+                    ><i class="fa fa-times mt-4"></i
+                  ></a>
+                </td>
+              </tr>
+              <tr>
+                <td class="cart_product">
+                  <a href=""><img src="./img/cart/3.png" alt="" /></a>
+                </td>
+                <td class="cart_description">
+                  <h4 class="mt-4">
+                    <a class="text-decoration-none text-dark" href=""
+                      >Colorblock Scuba</a
+                    >
+                  </h4>
+                  <p>Web ID: 1089772</p>
+                </td>
+                <td class="cart_price">
+                  <p class="mt-4">$59</p>
+                </td>
+                <td class="cart_quantity">
+                  <div class="cart_quantity_button d-flex mt-4">
+                    <button
+                      id="case-minus"
+                      class="cart_quantity_up me-3 text-decoration-none text-black border-0"
+                      href=""
+                    >
+                      -
+                    </button>
+                    <input
+                      id="case-number"
+                      type="number"
+                      min="0"
+                      class="form-control text-center"
+                      value="1"
+                    />
+                    <button
+                      id="case-plus"
+                      class="cart_quantity_down ms-3 text-decoration-none text-black border-0"
+                      href=""
+                    >
+                      +
+                    </button>
+                  </div>
+                </td>
+                <td class="cart_total">
+                  <p class="mt-3">$ <span id="case-total">59</span></p>
+                </td>
+                <td class="cart_delete">
+                  <a class="cart_quantity_delete" href=""
+                    ><i class="fa fa-times mt-4"></i
+                  ></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="do_action">
+      <div class="container">
+        <div class="heading">
+          <h3>What would you like to do next?</h3>
+          <p>
+            Choose if you have a discount code or reward points you want to use
+            or would like to estimate your delivery cost.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="chose_area border p-4">
+              <ul class="user_option list-unstyled">
+                <li>
+                  <input type="checkbox" />
+                  <label>Use Coupon Code</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Use Gift Voucher</label>
+                </li>
+                <li>
+                  <input type="checkbox" />
+                  <label>Estimate Shipping & Taxes</label>
+                </li>
+              </ul>
+              <ul class="user_info list-unstyled d-flex">
+                <li class="single_field me-2">
+                  <label>Country:</label>
+                  <select class="w-75">
+                    <option>United States</option>
+                    <option>Bangladesh</option>
+                    <option>UK</option>
+                    <option>India</option>
+                    <option>Pakistan</option>
+                    <option>Ucrane</option>
+                    <option>Canada</option>
+                    <option>Dubai</option>
+                  </select>
+                </li>
+                <li class="single_field me-1">
+                  <label>Region:</label>
+                  <select class="w-75">
+                    <option>Select</option>
+                    <option>Dhaka</option>
+                    <option>London</option>
+                    <option>Dillih</option>
+                    <option>Lahore</option>
+                    <option>Alaska</option>
+                    <option>Canada</option>
+                    <option>Dubai</option>
+                  </select>
+                </li>
+                <li class="single_field zip-field">
+                  <label>Zip Code:</label>
+                  <input class="w-75" type="text" />
+                </li>
+              </ul>
+              <a
+                class="btn btn-default update mt-3 bg-warning rounded-0 me-2"
+                href=""
+                >Get Quotes</a
+              >
+              <a
+                class="btn btn-default check_out mt-3 bg-warning rounded-0"
+                href=""
+                >Continue</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="total_area border p-4">
+              <div class="cart-item">
+                <div class="row g-2">
+                  <div class="col-12 status">
+                    <div class="layout d-flex justify-content-between">
+                      <h5>Cart Sub Total:</h5>
+                      <p>$<span id="sub-total">171</span></p>
+                    </div>
+                    <div class="layout d-flex justify-content-between">
+                      <h5>Eco Tax:</h5>
+                      <p>$<span id="tax-amount">2</span></p>
+                    </div>
+                    <div class="layout d-flex justify-content-between">
+                      <h5>Shipping Cost:</h5>
+                      <p>Free</p>
+                    </div>
+                    <div class="layout d-flex justify-content-between">
+                      <h5>Total:</h5>
+                      <p>$<span id="total-price">173</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="btn btn-default update rounded-0 bg-warning mt-4 me-2"
+                href=""
+                >Update</a
+              >
+              <a
+                class="btn btn-default check_out rounded-0 bg-warning mt-4"
+                href=""
+                >Check Out</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! Content END -->
+
+    <!-- ! Footer START -->
+    <div class="container-fluid mt-5 border bg-warning">
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-lg-2 col-sm-12 text-sm-center mt-3">
+              <h2 class="fs-6">E-SHOPPER</h2>
+              <p class="eshopper">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Obcaecati, incidunt! Ipsum blanditiis eos esse nostrum?
+              </p>
+            </div>
+            <div class="col-md-2 col-sm-6 mt-3">
+              <img
+                class="w-75 border-black m-auto d-flex"
+                src="./img/index/iframe1.png"
+                alt=""
+              />
+              <p class="text-center mb-0">Circle of Hands</p>
+              <p class="text-center">24 DEC 2014</p>
+            </div>
+            <div class="col-md-2 col-sm-6 mt-3">
+              <img
+                class="w-75 border-black m-auto d-flex"
+                src="./img/index/iframe2.png"
+                alt=""
+              />
+              <p class="text-center mb-0">Circle of Hands</p>
+              <p class="text-center">24 DEC 2014</p>
+            </div>
+            <div class="col-md-2 col-sm-6 mt-3">
+              <img
+                class="w-75 border-black m-auto d-flex"
+                src="./img/index/iframe3.png"
+                alt=""
+              />
+              <p class="text-center mb-0">Circle of Hands</p>
+              <p class="text-center">24 DEC 2014</p>
+            </div>
+            <div class="col-md-2 col-sm-6 mt-3">
+              <img
+                class="w-75 border-black m-auto d-flex"
+                src="./img/index/iframe4.png"
+                alt=""
+              />
+              <p class="text-center mb-0">Circle of Hands</p>
+              <p class="text-center">24 DEC 2014</p>
+            </div>
+            <div class="col-md-2 col-sm-12">
+              <a href="#"
+                ><img class="w-100 mt-3" src="./img/index/map.png" alt=""
+              /></a>
+              <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-body" />
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-sm-4">
+              <h2 class="fs-5">SERVICE</h2>
+              <ul class="list-unstyled">
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Online Help</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Contact Us</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Order Status</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Change Location
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  FAQ'S
+                </a>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+              <h2 class="fs-5">QUICK SHOP</h2>
+              <ul class="list-unstyled">
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>T-Shirt</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Mens</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Womens</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Gift Cards
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Shoes
+                </a>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+              <h2 class="fs-5">POLICIES</h2>
+              <ul class="list-unstyled">
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Term of Use</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Privacy Policy</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Refund Policy</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Billing System
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Ticket System
+                </a>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-4">
+              <h2 class="fs-5">ABOUT SHOPPER</h2>
+              <ul class="list-unstyled">
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Company İnformation</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Careers</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li>Store Location</li>
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Affillate Program
+                </a>
+                <a class="text-decoration-none text-secondary" href="#">
+                  <li></li>
+                  Copyright
+                </a>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-sm-6 ms-md-0">
+              <div class="single-widget">
+                <h2 class="fs-5">About Shopper</h2>
+                <form action="#" class="searchform d-flex">
+                  <input type="text" placeholder="Your email address" />
+                  <button class="bg-danger p-2 ps-3 pe-3">
+                    <i class="fa-solid fa-circle-arrow-right text-light"></i>
+                  </button>
+                </form>
+                <p>
+                  Get the most recent updates from <br />our site and be updated
+                  your self...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-fluid bg-body-tertiary">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>Copyright © 2013 E-SHOPPER Inc. All rights reserved.</p>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+              <p>
+                Designed by
+                <a class="text-decoration-none text-danger" href="#">Sado</a>
+              </p>
+              <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <i class="fa-solid fa-chevron-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! Footer END -->
+
+    <script src="js/app.js"></script>
+    <script src="js/scroolUp.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
